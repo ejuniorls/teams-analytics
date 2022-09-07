@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Generic Gradient
+$skipper-blue:      #464775;
+$dewberry:          #8e578a;
+$preppy-rose:       #d06988;
+$miami-coral:       #fd8b76;
+$sea-buckthorn:     #ffbe65;
+$old-laser-lemon:   #f9f871;
+
+// Matching Gradient
+$wool-violet:       #635488;
+$jubilee:           #816199;
+$dark-lilac:        #a16ea9;
+$daphne-rose:       #c17bb6;
+$pink-punk:         #e289c1;
+
+// Spot Palette
+$minuet-lilac:      #7877a9;
+$foundation-white:  #f0edff;
+$australien:        #cca715;
+
+.bg-skipper-blue { background-color: $skipper-blue; }
+.bg-dewberry { background-color: $dewberry; }
+.bg-preppy-rose { background-color: $preppy-rose; }
+.bg-miami-coral { background-color: $miami-coral; }
+.bg-sea-buckthorn { background-color: $sea-buckthorn; }
+.bg-old-laser-lemon { background-color: $old-laser-lemon; }
+.bg-wool-violet { background-color: $wool-violet; }
+.bg-jubilee { background-color: $jubilee; }
+.bg-dark-lilac { background-color: $dark-lilac; }
+.bg-daphne-rose { background-color: $daphne-rose; }
+.bg-pink-punk { background-color: $pink-punk; }
+.bg-minuet-lilac { background-color: $minuet-lilac; }
+.bg-foundation-white { background-color: $foundation-white; }
+.bg-australien { background-color: $australien; }
