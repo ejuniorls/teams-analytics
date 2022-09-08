@@ -10,8 +10,11 @@ import {DashboardComponent} from "./modules/teams/dashboard/dashboard.component"
 import {ReportsComponent} from "./modules/teams/reports/reports.component";
 import {SessionsComponent} from "./modules/teams/sessions/sessions.component";
 import {LoginComponent} from "./modules/auth/login/login.component";
+import {UsersComponent} from "./modules/teams/users/users.component";
 
 const routes: Routes = [
+  { path: '', component: DashboardComponent },
+
   { path: 'login', component: LoginComponent },
 
   { path: 'admin/cadence', component: CadenceComponent },
@@ -23,7 +26,8 @@ const routes: Routes = [
   { path: 'teams/callrecords', component: CallrecordsComponent },
   { path: 'teams/dashboard', component: DashboardComponent },
   { path: 'teams/reports', component: ReportsComponent },
-  { path: 'teams/sessions', component: SessionsComponent }
+  { path: 'teams/sessions', component: SessionsComponent },
+  { path: 'teams/users', component: UsersComponent }
 ];
 
 @NgModule({
