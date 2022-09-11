@@ -15,6 +15,7 @@ import { ReportsComponent } from './modules/teams/reports/reports.component';
 import { DashboardComponent } from './modules/teams/dashboard/dashboard.component';
 import { AdminUsersComponent } from './modules/admin/admin-users/admin-users.component';
 import { LoginComponent } from './modules/auth/login/login.component';
+import { CardTotalizadorComponent } from './modules/teams/dashboard/components/card-totalizador/card-totalizador.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { LoginComponent } from './modules/auth/login/login.component';
     DashboardComponent,
     AdminUsersComponent,
     LoginComponent,
+    CardTotalizadorComponent,
   ],
   imports: [
     BrowserModule,
