@@ -23,6 +23,7 @@ import { NgChartsModule } from "ng2-charts";
 import { DashChartCallrecordsComponent } from './modules/teams/dashboard/charts/dash-chart-callrecords/dash-chart-callrecords.component';
 import { DashChartMoreTimeOnCallsComponent } from './modules/teams/dashboard/charts/dash-chart-more-time-on-calls/dash-chart-more-time-on-calls.component';
 import { DashChartDevicesSessionsComponent } from './modules/teams/dashboard/charts/dash-chart-devices-sessions/dash-chart-devices-sessions.component';
+import { DashChartCallsPerPeriodComponent } from './modules/teams/dashboard/charts/dash-chart-calls-per-period/dash-chart-calls-per-period.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { DashChartDevicesSessionsComponent } from './modules/teams/dashboard/cha
     DashChartCallrecordsComponent,
     DashChartMoreTimeOnCallsComponent,
     DashChartDevicesSessionsComponent,
+    DashChartCallsPerPeriodComponent,
   ],
   imports: [
     BrowserModule,

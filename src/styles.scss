@@ -16,3 +16,8 @@ body {
 .dash-chart {
   width: 100%;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: $skipper-blue;
+}
