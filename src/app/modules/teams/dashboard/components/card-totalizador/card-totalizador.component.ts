@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import { faUserTie, faPhone, faUserFriends, faUsers, faMicrophone, faVideo, faDesktop, faBorderAll} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-card-totalizador',
@@ -6,6 +7,15 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./card-totalizador.component.scss']
 })
 export class CardTotalizadorComponent implements OnInit {
+
+  faUserTie = faUserTie;
+  faPhone = faPhone;
+  faUserFriends = faUserFriends;
+  faUsers = faUsers;
+  faMicrophone = faMicrophone;
+  faVideo = faVideo;
+  faDesktop = faDesktop;
+  faBorderAll = faBorderAll;
 
   totalizadoresColaboradores?: number = 0;
   totalizadoresCalls?: number = 0;

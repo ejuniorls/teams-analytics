@@ -16,6 +16,8 @@ import { DashboardComponent } from './modules/teams/dashboard/dashboard.componen
 import { AdminUsersComponent } from './modules/admin/admin-users/admin-users.component';
 import { LoginComponent } from './modules/auth/login/login.component';
 import { CardTotalizadorComponent } from './modules/teams/dashboard/components/card-totalizador/card-totalizador.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FiltroDashboardComponent } from './modules/teams/dashboard/components/filtro-dashboard/filtro-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -33,10 +35,12 @@ import { CardTotalizadorComponent } from './modules/teams/dashboard/components/c
     AdminUsersComponent,
     LoginComponent,
     CardTotalizadorComponent,
+    FiltroDashboardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
