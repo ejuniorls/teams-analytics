@@ -19,6 +19,11 @@ import { CardTotalizadorComponent } from './modules/teams/dashboard/components/c
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FiltroDashboardComponent } from './modules/teams/dashboard/components/filtro-dashboard/filtro-dashboard.component';
 
+import { NgChartsModule } from "ng2-charts";
+import { DashChartCallrecordsComponent } from './modules/teams/dashboard/charts/dash-chart-callrecords/dash-chart-callrecords.component';
+import { DashChartMoreTimeOnCallsComponent } from './modules/teams/dashboard/charts/dash-chart-more-time-on-calls/dash-chart-more-time-on-calls.component';
+import { DashChartDevicesSessionsComponent } from './modules/teams/dashboard/charts/dash-chart-devices-sessions/dash-chart-devices-sessions.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,11 +41,15 @@ import { FiltroDashboardComponent } from './modules/teams/dashboard/components/f
     LoginComponent,
     CardTotalizadorComponent,
     FiltroDashboardComponent,
+    DashChartCallrecordsComponent,
+    DashChartMoreTimeOnCallsComponent,
+    DashChartDevicesSessionsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

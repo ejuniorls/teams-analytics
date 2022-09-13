@@ -1,3 +1,36 @@
 <h1 class="h3">Dashboard</h1>
 <app-filtro-dashboard></app-filtro-dashboard>
 <app-card-totalizador></app-card-totalizador>
+
+<section class="row mt-4 gx-2" id="dashboard-charts">
+  <div class="col-sm-12 col-md-6 col-lg-3 mb-2">
+    <div class="card h-100">
+      <div class="card-header">Sessões por dispositivos</div>
+
+      <div class="card-body">
+        <app-dash-chart-devices-sessions></app-dash-chart-devices-sessions>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-3 mb-2">
+    <div class="card h-100">
+      <div class="card-header">Chamadas</div>
+
+      <div class="card-body">
+        <app-dash-chart-callrecords></app-dash-chart-callrecords>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
+    <div class="card h-100">
+      <div class="card-header">Mais tempo em chamadas</div>
+
+      <div class="card-body">
+        <app-dash-chart-more-time-on-calls></app-dash-chart-more-time-on-calls>
+      </div>
+    </div>
+  </div>
+</section>
+
